@@ -1,0 +1,113 @@
+:root {
+    --main-color: #24353F;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.cards {
+    background-color: var(--main-color);
+}
+
+
+
+.login,
+.signUp {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    width: 55%;
+}
+
+.login {
+    height: 390px;
+}
+
+.signUp {
+    height: 420px;
+}
+
+.cards h1 {
+    color: #17A2B8;
+}
+
+.form-control {
+    width: 97%;
+    border-color: #B6B6B6;
+    color: #B6B6B6;
+}
+
+.btn#loginBtn,
+.btn#signUpBtn {
+    color: #17A2B8;
+    border-color: #17A2B8;
+    width: 97%;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.btn#loginBtn:hover,
+.btn#signUpBtn:hover {
+    color: white;
+    background-color: #17A2B8;
+}
+
+
+#login,
+#signUp {
+    border: none;
+    color: white;
+    transition: background-color;
+    text-decoration: none;
+    color: white;
+    transition: color .3s, text-decoration .3s;
+}
+
+#login:hover,
+#signUp:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+.form-control:focus {
+    color: white;
+}
+
+.form-contents {
+    left: 52%;
+}
+
+.home .navbar {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar .btn {
+    color: rgba(255, 255, 255, 0.75);
+    border: #FFC107 1px solid;
+    transition: background-color 0.3s, color;
+}
+
+.navbar .btn:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #FFC107;
+}
+
+.home .welcome {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    width: 65%;
+    height: 150px;
+    top: 45%;
+}
+
+.welcome h1 {
+    color: rgb(23, 162, 184);
+    font-size: 40px;
+    left: 40%;
+}
